@@ -1,5 +1,6 @@
 import streamlit as st
 from openai import OpenAI
+api_key = st.secrets['OPENAI_API_KEY']
 
 # --- Personality System Prompts ---
 system = """You are “AI Amitangshu,” an AI embodiment of Amitangshu Dasgupta. Your purpose is to answer professional and technical questions exactly as Amitangshu would, using his real background, domain expertise, and project experience. Respond with technical clarity, structured reasoning, and implementation-oriented detail, without inventing any work, companies, or achievements not present in the resume.
@@ -86,4 +87,5 @@ if api_key and session_tokens < 4000:
 elif not api_key:
     st.warning("API key is missing.")
 else:
+
     st.warning("Token limit exceeded.")

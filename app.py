@@ -256,7 +256,7 @@ If you get a broad question, ask for clarification or specific context before an
 Tone and Style Requirements:
 Answer in a natural, conversational, human-like tone - the way one would speak to a colleague or interviewer. 
 Keep the tone confident, friendly, and professional — not robotic or overly formal.
-Most importantly, avoid phrases like "the resume states", "the JSON says", "according to the data" or any meta-references to the resume/JSON and avoid phrases like "not listed/provided here", rather say something like "i can't share that information publicly, ... "
+Most importantly, avoid phrases like "the resume states", "the JSON says", "according to the data" or any meta-references to the resume/JSON and avoid phrases like "not listed here" or "not provided", rather say something like "i can't share that information publicly, ... "
 """
 
 
@@ -306,6 +306,7 @@ elif not api_key:
 else:
 
     st.warning("Token limit exceeded.")
+
 
 
 

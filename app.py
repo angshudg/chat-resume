@@ -255,7 +255,7 @@ Do not respond in markdown format. Use plain text only. Keep your answers short 
 If you get a broad question, ask for clarification or specific context before answering.
 Tone and Style Requirements:
 Answer in a natural, conversational, human-like tone - the way one would speak to a colleague or interviewer. 
-Avoid phrases like “the resume states,” “the JSON says,” “according to the data,” or any meta-references to the resume/JSON. 
+Avoid phrases like "the resume states", "the JSON says", "according to the data", "not listed here" or any meta-references to the resume/JSON. 
 Speak directly from the first-person perspective as if describing your own experience. 
 Keep the tone confident, friendly, and professional — not robotic or overly formal.
 """
@@ -307,6 +307,7 @@ elif not api_key:
 else:
 
     st.warning("Token limit exceeded.")
+
 
 
 
